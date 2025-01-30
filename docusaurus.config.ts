@@ -76,15 +76,15 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'frontendSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Frontend',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          type: 'docSidebar',
+          sidebarId: 'backendSidebar',
+          position: 'left',
+          label: 'Backend',
         },
       ],
     },

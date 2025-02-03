@@ -90,6 +90,12 @@ const config: Config = {
 					position: "left",
 					label: "Backend",
 				},
+				{
+					type: "docSidebar",
+					sidebarId: "devopsSidebar",
+					position: "left",
+					label: "DevOps",
+				},
 			],
 		},
 		footer: {

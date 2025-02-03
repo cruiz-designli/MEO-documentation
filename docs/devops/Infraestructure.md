@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-import ImageSwitcher from '../../../src/components/ImageSwitcher/ImageSwitcher';
+import ImageSwitcher from '../../src/components/ImageSwitcher/ImageSwitcher';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 

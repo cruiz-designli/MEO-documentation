@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # New environment setup
 
 To generate a new environment for a MEO client we need to follow a series of steps that will ensure that the new client is properly setup and ready for production.
@@ -20,6 +24,7 @@ This new branch should be based on main
 ### 1.1 Create CI/CD pipeline
 
 For this normally use the following as template, this should be located in the GitHub actions folder `.github/workflows`
+
 
 ``` yml
 name: Deploy to [CLIENT_NAME]
@@ -95,6 +100,10 @@ jobs:
           MAU_KEY: ${{ secrets.MAU_PRD[CLIENT_ACRONYM]_KEY  }}
           MAU_SECRET: ${{ secrets.MAU_PRD[CLIENT_ACRONYM]_SECRET  }}
 ```
+
+:::tip
+Check the [Pipelines documentation](/docs/backend/DevOps/pipelines) for more information
+:::
 
 ### 1.2 Create the GitHub repository secrets
 

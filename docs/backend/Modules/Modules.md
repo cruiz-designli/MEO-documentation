@@ -25,7 +25,7 @@ Its recomended to use [this spreadsheet](https://docs.google.com/spreadsheets/d/
 
 | Module                  | Category      | Main MEO section                | Calculation details                                                                                                                    |
 | ----------------------- | ------------- | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| auth0                   | CRUD          | Auth                            |                                                                                                                                        |
+| auth0                   | CRUD          | Auth                            | [Advanced permissions](https://docs.google.com/document/d/1TSs_oPyXGT2dvLADNL9_suWOMvx5nUEFnYMCIyDtg_Q)                                |
 | communication-plan      | CRUD          | BCP hub                         |                                                                                                                                        |
 | consideration           | CRUD          | BCP hub                         |                                                                                                                                        |
 | corporate-financial     | CRUD          | BCP hub                         |                                                                                                                                        |
@@ -48,7 +48,7 @@ Its recomended to use [this spreadsheet](https://docs.google.com/spreadsheets/d/
 | migrator                | CRUD          | BCP hub                         |                                                                                                                                        |
 | mitigation              | Computational | Location mitigation             | [Mitigation](https://docs.google.com/spreadsheets/d/1ORAhk6oRgwZRfJDXoinDh0bAdkJi-_nT/edit?gid=2009282312#gid=2009282312)              |
 | outbound-material       | CRUD          | BCP hub                         |                                                                                                                                        |
-| panel                   | CRUD          | Auth                            |                                                                                                                                        |
+| panel                   | CRUD          | Auth                            | [Advanced permissions](https://docs.google.com/document/d/1TSs_oPyXGT2dvLADNL9_suWOMvx5nUEFnYMCIyDtg_Q)                                |
 | pdf-creator             | Informative   | BCP hub                         |                                                                                                                                        |
 | people                  | CRUD          | BCP hub                         |                                                                                                                                        |
 | plan-activation         | CRUD          | BCP hub                         |                                                                                                                                        |
@@ -74,8 +74,8 @@ Its recomended to use [this spreadsheet](https://docs.google.com/spreadsheets/d/
 | supplier                | CRUD          | BCP hub                         |                                                                                                                                        |
 | supply-chain            | CRUD          | BCP hub                         |                                                                                                                                        |
 | update                  | Computational | Event propagation / data sync   | [Event propagation](/docs/backend/Modules/Events)                                                                                      |
-| user                    | CRUD          | Auth                            |                                                                                                                                        |
-| user-panel              | CRUD          | Auth                            |                                                                                                                                        |
-| user-permission         | CRUD          | Auth                            |                                                                                                                                        |
-| user-role               | CRUD          | Auth                            |                                                                                                                                        |
+| user                    | CRUD          | Auth                            | [Advanced permissions](https://docs.google.com/document/d/1TSs_oPyXGT2dvLADNL9_suWOMvx5nUEFnYMCIyDtg_Q)                                |
+| user-panel              | CRUD          | Auth                            | [Advanced permissions](https://docs.google.com/document/d/1TSs_oPyXGT2dvLADNL9_suWOMvx5nUEFnYMCIyDtg_Q)                                |
+| user-permission         | CRUD          | Auth                            | [Advanced permissions](https://docs.google.com/document/d/1TSs_oPyXGT2dvLADNL9_suWOMvx5nUEFnYMCIyDtg_Q)                                |
+| user-role               | CRUD          | Auth                            | [Advanced permissions](https://docs.google.com/document/d/1TSs_oPyXGT2dvLADNL9_suWOMvx5nUEFnYMCIyDtg_Q)                                |
 

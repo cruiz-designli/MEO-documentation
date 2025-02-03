@@ -41,9 +41,19 @@ yarn install
 Create a `.env` file in the root directory and configure it with the necessary API keys and environment-specific values:
 
 ```txt
-REACT_APP_API_URL=https://api.example.com
-REACT_APP_AUTH0_DOMAIN=your-auth0-domain
+REACT_APP_AUTH0_APP_DOMAIN=example.auth0.com
 REACT_APP_AUTH0_CLIENT_ID=your-auth0-client-id
+REACT_APP_BACKEND_URL=https://api.example.com
+CLIENT_ID=your-client-id
+
+REACT_APP_API_SERVER_URL=https://api.example.com/v1
+REACT_APP_AUTH0_AUDIENCE_URL=https://your-api.example.com
+
+GENERATE_SOURCEMAP=false
+
+REACT_APP_AUTH0_ORGANIZATIONS=org1,org2,org3
+
+REACT_APP_AUTH0_SSO=localhost:true,dev:true
 ```
 
 **Note: You may need to ask the team for the correct .env values.**

@@ -102,7 +102,7 @@ jobs:
 ```
 
 :::tip
-Check the [Pipelines documentation](/docs/backend/DevOps/pipelines) for more information
+Check the [Pipelines documentation](/docs/backend/DevOps/Pipelines) for more information
 :::
 
 ### 1.2 Create the GitHub repository secrets

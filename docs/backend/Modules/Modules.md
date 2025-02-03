@@ -9,6 +9,20 @@ The system is designed based on DDD principles, where a module defines an entity
 
 ## Module structure
 
+Each module is categorized into one of the following types:	
+
+	- CRUD: The module is responsible for creating, reading, updating, and deleting data.
+	- Computational: The module is responsible for calculating data based on the inputs. Modules of this type are used to calculate dependencies, mitigations, and other data, the details of the calculations are provided in the table below.
+	- Informative: The module is responsible for providing information to the user.
+
+Each module is also assigned to a main MEO section, which is the main area of the application where the module is used.
+
+:::tip Business logic
+Its recomended to use [this spreadsheet](https://docs.google.com/spreadsheets/d/1ORAhk6oRgwZRfJDXoinDh0bAdkJi-_nT) to understand the MEO application business logic and core functionalities.
+:::
+
+## Modules list
+
 | Module                  | Category      | Main MEO section                | Calculation details                                                                                                                    |
 | ----------------------- | ------------- | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | auth0                   | CRUD          | Auth                            |                                                                                                                                        |
@@ -59,7 +73,7 @@ The system is designed based on DDD principles, where a module defines an entity
 | strategy                | CRUD          | BCP hub                         |                                                                                                                                        |
 | supplier                | CRUD          | BCP hub                         |                                                                                                                                        |
 | supply-chain            | CRUD          | BCP hub                         |                                                                                                                                        |
-| update                  | Computational | Event propagation / data sync   |                                                                                                                                        |
+| update                  | Computational | Event propagation / data sync   | [Event propagation](/docs/backend/Modules/Events)                                                                                      |
 | user                    | CRUD          | Auth                            |                                                                                                                                        |
 | user-panel              | CRUD          | Auth                            |                                                                                                                                        |
 | user-permission         | CRUD          | Auth                            |                                                                                                                                        |

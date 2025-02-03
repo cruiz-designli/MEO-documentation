@@ -1,14 +1,13 @@
 import React from "react";
-import {useColorMode} from '@docusaurus/theme-common'; //docs: https://v2.docusaurus.io/docs/2.0.0-alpha.69/theme-classic#usethemecontext
+import { useColorMode } from '@docusaurus/theme-common'; //docs: https://v2.docusaurus.io/docs/2.0.0-alpha.69/theme-classic#usethemecontext
 
 const ImageSwitcher = ({ lightImageSrc, darkImageSrc }) => {
-	const {colorMode, setColorMode} = useColorMode();
+	const { colorMode, setColorMode } = useColorMode();
 
 	return (
 		<img
 			class="zoomable-image"
-			src={colorMode === 'dark' ? darkImageSrc : lightImageSrc}
-			alt="Example banner"
+			src={useBaseUrl(colorMode === 'dark' ? darkImageSrc : lightImageSrc)}
 		/>
 	);
 };
